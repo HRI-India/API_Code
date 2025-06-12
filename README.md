@@ -71,15 +71,6 @@ output_file = "output.csv"</code></pre>
 <p>Make sure your <code>api_key</code> for Olamaps is valid. You can replace it inside the script:</p>
 <pre><code>api_key = 'YOUR_API_KEY_HERE'</code></pre>
 
-<h2>🛠 Customization</h2>
-<p>To rename address columns in the output:</p>
-<pre><code>input_df.rename(columns={
-    "country": "Country",
-    "administrative_area_level_1": "State",
-    "administrative_area_level_2": "City",
-    "administrative_area_level_3": "Region"
-}, inplace=True)</code></pre>
-
 <h2>Example Usage</h2>
 <pre><code>python reverseGeocode.py</code></pre>
 <p>Console output will show progress:</p>
